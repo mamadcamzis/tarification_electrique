@@ -24,5 +24,6 @@ if __name__ == "__main__":
     #get_enedis_data()
     enedis_df = get_enedis_data()
     odre_df = get_real_time_data()
+    print(f"Enedis data {enedis_df}")
     
     
